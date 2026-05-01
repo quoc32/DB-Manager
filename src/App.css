@@ -1,0 +1,78 @@
+.container {
+  padding: 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.db-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.db-card {
+  background: #f8f9fa;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.2s ease;
+}
+
+.db-card:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.db-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.status-indicator {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: gray;
+}
+
+.status-indicator.running { background: #28a745; box-shadow: 0 0 8px #28a745; }
+.status-indicator.stopped { background: #dc3545; }
+
+.status-text {
+  font-size: 0.9rem;
+  margin-right: 15px;
+  font-weight: 500;
+}
+
+.status-text.running { color: #28a745; }
+.status-text.stopped { color: #dc3545; }
+
+.action-btn {
+  padding: 6px 16px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  transition: opacity 0.2s;
+}
+
+.action-btn:disabled { opacity: 0.5; cursor: not-allowed; }
+.action-btn.start { background: #28a745; color: white; }
+.action-btn.stop { background: #dc3545; color: white; }
+.refresh-btn {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
