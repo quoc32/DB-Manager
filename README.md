@@ -1,7 +1,3 @@
-Lỗi này do bạn đang dùng dấu # (Markdown) nhưng lại viết mọi thứ trên cùng một dòng hoặc không ngắt đoạn đúng cách. Trong Markdown, các thẻ tiêu đề như # hoặc ## chỉ hoạt động nếu chúng đứng đầu dòng và có một khoảng trống phía sau.
-
-Để hiện đẹp, chuyên nghiệp và có phân cấp, bạn hãy sửa lại theo cấu trúc này:
-
 # DB Manager
 Ứng dụng Desktop quản lý cơ sở dữ liệu tốc độ cao (Local), giao diện cực đơn giản và tiêu tốn cực ít tài nguyên.
 
